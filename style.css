@@ -1,0 +1,39 @@
+/*RESET DI BASE*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*STILE GENERALE DELLA PAGINA*/
+
+body {
+    max-width: 512px;
+    margin: 0 auto;
+    background-color: #4c56d3;
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+}
+
+/*IL BANNER IN ALTO OCCUPA TUTTA LA LARGHEZZA*/
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+/*SEZIONE HERO*/
+
+.hero {
+    padding: 30px 24px;
+    text-align: center;
+}
+
+/*IL TITOLO GRANDE E BOMBATO*/
+.hero h1 {
+    font-family: "Sigmar", cursive;
+    font-size: 2rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
